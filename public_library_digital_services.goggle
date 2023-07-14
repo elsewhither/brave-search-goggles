@@ -5,10 +5,12 @@
 ! github: https://github.com/elsewhither
 ! avatar: #FFB000
 
+!limit results to whitelist
+
+$discard
 
 !whitelist common public library digital services
 
-$discard
 $site=worldcat.org
 $site=openlibrary.org
 $site=overdrive.com
