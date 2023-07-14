@@ -22,21 +22,20 @@ $site=consumerreports
 
 !boost URL patterns for catalog listings
 
-
 !Overdrive
-/media/$boost=5
+/media/$boost=5, site=ovedrive.com
 
 !Hoopla
-/title/$boost=5
+/title/$boost=5, site=hoopladigital.com
 
 !Kanopy
-/en/product/$boost=5
+/en/product/$boost=5, site=kanopy.com
 
 !Libby
-/library/*/$boost=5
+/library/*/$boost=5, site=libbyapp.com
 
 !Open Library
-/books/$boost=5
-/works/$boost=5
+/books/$boost=5, site=openlibrary.org
+/works/$boost=5, site=openlibrary.org
 
 
