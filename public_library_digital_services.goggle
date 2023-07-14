@@ -23,19 +23,19 @@ $site=consumerreports
 !boost URL patterns for catalog listings
 
 !Overdrive
-/media/$boost=5, inurl=ovedrive.com
+/media/$boost=5, inurl
 
 !Hoopla
-/title/$boost=5, inurl=hoopladigital.com
+/title/$boost=5, inurl
 
 !Kanopy
-/en/product/$boost=5, inurl=kanopy.com
+/en/product/$boost=5, inurl
 
 !Libby
-/library/*/$boost=5, inurl=libbyapp.com
+/library/*/$boost=5, inurl
 
 !Open Library
-/books/$boost=5, inurl=openlibrary.org
-/works/$boost=5, inurl=openlibrary.org
+/books/$boost=5, inurl
+/works/$boost=5, inurl
 
 
