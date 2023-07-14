@@ -11,7 +11,7 @@
 $discard
 $site=worldcat.org
 $site=openlibrary.org
-$inurl=*.overdrive.com, inurl
+$site=*.overdrive.com, inurl
 $site=libbyapp.com
 $site=hoopladigital.com
 $site=kanopy.com
