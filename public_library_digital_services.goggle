@@ -11,31 +11,13 @@ $discard
 
 !whitelist common public library digital services
 
-$site=worldcat.org
-$site=openlibrary.org
-$site=overdrive.com
-$site=libbyapp.com
-$site=hoopladigital.com
-$site=kanopy.com
+/books/$site=openlibrary.org
+/works$site=openlibrary.org
+/media/$site=overdrive.com
+/library/*/$site=libbyapp.com
+/title/$site=hoopladigital.com
+/en/product/$site=kanopy.com
 $site=pressreader.com
 $site=consumerreports
-
-!boost URL patterns for catalog listings
-
-!Overdrive
-/media/$boost=5, inurl
-
-!Hoopla
-/title/$boost=5, inurl
-
-!Kanopy
-/en/product/$boost=5, inurl
-
-!Libby
-/library/*/$boost=5, inurl
-
-!Open Library
-/books/$boost=5, inurl
-/works/$boost=5, inurl
 
 
