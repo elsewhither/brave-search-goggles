@@ -11,12 +11,16 @@ $discard
 
 !whitelist common public library digital services
 
-/books/$site=openlibrary.org
-/works$site=openlibrary.org
-/media/$site=overdrive.com
-/library/*/$site=libbyapp.com
-/title/$site=hoopladigital.com
-/en/product/$site=kanopy.com
+$site=openlibrary.org
+/books/$inurl=openlibrary.org
+/works$inurl=openlibrary.org
+$site=overdrive.com
+/media/$inurl=overdrive.com
+$site=libbyapp.com
+/library/*/$inurl=libbyapp.com
+$site=hoopladigital.com
+/title/$inurl=hoopladigital.com
+/en/product/$inurl=kanopy.com
 $site=pressreader.com
 $site=consumerreports
 
