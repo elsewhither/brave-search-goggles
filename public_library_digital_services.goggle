@@ -7,19 +7,22 @@
 
 !whitelist common public library digital services
 
-$site=openlibrary.org
-$site=overdrive.com
-$site=libbyapp.com
-$site=hoopladigital.com
-$site=pressreader.com
-$site=consumerreports
+$site=openlibrary.org,boost=5
+$site=overdrive.com,boost=5
+$site=libbyapp.com,boost=5
+$site=hoopladigital.com,boost=5
+$site=pressreader.com,boost=5
+$site=consumerreports.com,boost=5
 
-/books/*/$site=openlibrary.org
-/works/*/$site=openlibrary.org
-/media/*/$site=overdrive.com
-/library/*/$site=libbyapp.com
-/title/*/$site=hoopladigital.com
-/en/product/*/$site=kanopy.com
+!boost overdrive sites with subdomains
+$inurl=^*^overdrive.com,boost=5
+
+/books/*/$site=openlibrary.org,boost=10
+/works/*/$site=openlibrary.org,boost=10
+/media/*/$site=overdrive.com,boost=10
+/library/*/$site=libbyapp.com,boost=10
+/title/*/$site=hoopladigital.com,boost=10
+/en/product/*/$site=kanopy.com,boost=10
 
 
 
