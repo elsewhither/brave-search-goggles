@@ -11,19 +11,19 @@
 $inurl=libraries.*.edu,boost=5
 $inurl=lib.*.edu,boost=5
 $inurl=library.*.edu,boost=5
-$inurl=*.lib.edu,boost=5
+$inurl=.lib.edu,boost=5
 $inurl=libraries.*.edu,boost=5
 $inurl=libweb.*.edu,boost=5
 $inurl=libcat.*.edu,boost=5
 $inurl=research.*.edu,boost=5
 $inurl=^ulib.edu,boost=5
-$inurl=*.cc.ca.us
-$inurl=*.cc.il.us
-$inurl=*.cc.oh.us
-$inurl=*.cc.or.us
-$inurl=*.cc.tx.us
-$inurl=*.cc.va.us
-$inurl=*.cc.wy.us
+$inurl=cc.ca.us
+$inurl=cc.il.us
+$inurl=cc.oh.us
+$inurl=cc.or.us
+$inurl=cc.tx.us
+$inurl=cc.va.us
+$inurl=cc.wy.us
 
 !Allow libguide pages
 
@@ -38,11 +38,11 @@ $inurl=*.libguides.com,boost=10
 
 !Boost URLs that conatain these patterns
 
-/library/$boost=2,inurl
-/Library/$boost=2,inurl
-/libraries/$boost=2,inurl
-/lib/$boost=2,inurl
-/lrc/$boost=2,inurl
-/academic/library/$boost=2,inurl
-/Academic/library/$boost=2,inurl
+/library/$boost=2,inurl=.edu
+/Library/$boost=2,inurl=.edu
+/libraries/$boost=2,inurl=.edu
+/lib/$boost=2,inurl=.edu
+/lrc/$boost=2,inurl=.edu
+/academic/library/$boost=2,inurl=.edu
+/Academic/library/$boost=2,inurl=.edu
 
