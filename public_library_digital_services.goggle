@@ -7,8 +7,6 @@
 
 !whitelist common public library digital services
 
-$discard
-
 $site=openlibrary.org
 $site=overdrive.com
 $site=libbyapp.com
@@ -22,5 +20,7 @@ $site=consumerreports
 /library/*/$site=libbyapp.com
 /title/*/$site=hoopladigital.com
 /en/product/*/$site=kanopy.com
+
+$discard
 
 
