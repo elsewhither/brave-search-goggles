@@ -20,7 +20,7 @@ $site=consumerreports
 
 !boost subdomains for overdrive.com for distinct library collections
 
-$inurl=|overdrive.com, boost=5
+$inurl=**.overdrive.com, boost=5
 
 !boost URL patterns for catalog listings
 
