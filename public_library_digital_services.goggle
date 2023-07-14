@@ -11,7 +11,7 @@
 $discard
 $site=worldcat.org
 $site=openlibrary.org
-$site=.*.overdrive.com
+$site=*.overdrive.com
 $site=libbyapp.com
 $site=hoopladigital.com
 $site=kanopy.com
