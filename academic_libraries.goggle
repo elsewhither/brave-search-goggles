@@ -46,6 +46,3 @@ $inurl=^libguides.com,boost=10
 /academic/library/$boost=2,inurl
 /Academic/library/$boost=2,inurl
 
-$discard,inurl=^*.com
-$discard,inurl=^*.gov
-$discard,inurl=^*.org
