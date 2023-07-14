@@ -8,40 +8,40 @@
 !Whitelist URLs that contain these elements
 
 $discard
-$site=libraries.*.edu
-$site=lib.*.edu
-$site=library.*.edu
-$site=*.lib.edu
-$site=*.libraries.*.edu
-$site=*.libweb.*.edu
-$site=*libcat.*.edu
-$site=*research.*.edu
-$site=*.ulib.edu
-$site=*.cc.ca.us
-$site=*.cc.il.us
-$site=*.cc.oh.us
-$site=*.cc.or.us
-$site=*.cc.tx.us
-$site=*.cc.va.us
-$site=*.cc.wy.us
+$inurl=libraries^*.edu
+$inurl=lib^*.edu
+$inurl=library^*.edu
+$inurl=*^lib.edu
+$inurl=*.libraries^*.edu
+$inurl=*.libweb^*.edu
+$inurl=*libcat^*.edu
+$inurl=^=research^*.edu
+$inurl=^ulib.edu
+$inurl=^cc.ca.us
+$inurl=^cc.il.us
+$inurl=^cc.oh.us
+$inurl=^cc.or.us
+$inurl=^cc.tx.us
+$inurl=^cc.va.us
+$inurl=^cc.wy.us
 
 !Allow libguide pages
 
-$site=libguides.*.edu
-$site=guides.*.edu
-$site=researchguides.*.edu
-$site=libguides.*.*.edu
-$site=guides.*.*.edu
-$site=researchguides.*.*.edu
-$site=*.libguides.com
+$inurl=libguides^*^edu
+$inurl=guides^*^edu
+$inurl=researchguides^*^edu
+$inurl=libguides^*^edu
+$inurl=guides^*^edu
+$inurl=researchguides^*^edu
+$inurl=^libguides.com
 
 
 !Boost URLs that conatain these patterns
 
-/library/$boost=5
-/Library/$boost=5
-/libraries/$boost=5
-/lib/$boost=5
-/lrc/$boost=5
-/academic/library/$boost=5
-/Academic/library/$boost=5
+/library/$boost=5,inurl
+/Library/$boost=5,inurl
+/libraries/$boost=5,inurl
+/lib/$boost=5,inurl
+/lrc/$boost=5,inurl
+/academic/library/$boost=5,inurk
+/Academic/library/$boost=5,inurl
