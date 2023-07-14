@@ -9,12 +9,12 @@
 
 $discard
 
-$site=openlibrary.org, boost=10
-$site=overdrive.com, boost=10
-$site=libbyapp.com, boost=10
-$site=hoopladigital.com, boost=10
-$site=pressreader.com, boost=10
-$site=consumerreports, boost=10
+$site=openlibrary.org
+$site=overdrive.com
+$site=libbyapp.com
+$site=hoopladigital.com
+$site=pressreader.com
+$site=consumerreports
 
 /books/*/$inurl=openlibrary.org
 /works/*/$inurl=openlibrary.org
