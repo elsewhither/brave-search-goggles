@@ -7,15 +7,15 @@
 
 !whitelist common public library digital services
 
-$site=openlibrary.org,boost=5
-$site=overdrive.com,boost=5
-$site=libbyapp.com,boost=5
-$site=hoopladigital.com,boost=5
+$site=openlibrary.org,boost=10
+$site=overdrive.com,boost=10
+$site=libbyapp.com,boost=10
+$site=hoopladigital.com,boost=10
 $site=pressreader.com,boost=5
-$site=consumerreports.com,boost=5
+$site=consumerreports.com,boost=10
 
 !boost overdrive sites with subdomains
-$inurl=.overdrive.com,boost=5
+$inurl=?.overdrive.com,boost=10
 
 /books/*/$boost=10,site=openlibrary.org
 /works/*/$boost=10,site=openlibrary.org
