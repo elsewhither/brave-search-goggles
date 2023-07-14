@@ -15,7 +15,7 @@ $inurl=*^lib.edu
 $inurl=*.libraries^*.edu
 $inurl=*.libweb^*.edu
 $inurl=*libcat^*.edu
-$inurl=^=research^*.edu
+$inurl=^research^*.edu
 $inurl=^ulib.edu
 $inurl=^cc.ca.us
 $inurl=^cc.il.us
@@ -43,5 +43,5 @@ $inurl=^libguides.com
 /libraries/$boost=5,inurl
 /lib/$boost=5,inurl
 /lrc/$boost=5,inurl
-/academic/library/$boost=5,inurk
+/academic/library/$boost=5,inurl
 /Academic/library/$boost=5,inurl
