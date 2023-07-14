@@ -16,11 +16,11 @@ $site=hoopladigital.com
 $site=pressreader.com
 $site=consumerreports
 
-/books/*/$inurl=openlibrary.org
-/works/*/$inurl=openlibrary.org
-/media/*/$inurl=overdrive.com
-/library/*/$inurl=libbyapp.com
-/title/*/$inurl=hoopladigital.com
-/en/product/*/$inurl=kanopy.com
+/books/*/$site=openlibrary.org
+/works/*/$site=openlibrary.org
+/media/*/$site=overdrive.com
+/library/*/$site=libbyapp.com
+/title/*/$site=hoopladigital.com
+/en/product/*/$site=kanopy.com
 
 
