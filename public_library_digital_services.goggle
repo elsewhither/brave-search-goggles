@@ -5,23 +5,22 @@
 ! github: https://github.com/elsewhither
 ! avatar: #FFB000
 
-!limit results to whitelist
+!whitelist common public library digital services
 
 $discard
 
-!whitelist common public library digital services
+$site=openlibrary.org, boost=10
+$site=overdrive.com, boost=10
+$site=libbyapp.com, boost=10
+$site=hoopladigital.com, boost=10
+$site=pressreader.com, boost=10
+$site=consumerreports, boost=10
 
-$site=openlibrary.org
-/books/$inurl=openlibrary.org
-/works$inurl=openlibrary.org
-$site=overdrive.com
-/media/$inurl=overdrive.com
-$site=libbyapp.com
+/books/*/$inurl=openlibrary.org
+/works/*/$inurl=openlibrary.org
+/media/*/$inurl=overdrive.com
 /library/*/$inurl=libbyapp.com
-$site=hoopladigital.com
-/title/$inurl=hoopladigital.com
-/en/product/$inurl=kanopy.com
-$site=pressreader.com
-$site=consumerreports
+/title/*/$inurl=hoopladigital.com
+/en/product/*/$inurl=kanopy.com
 
 
