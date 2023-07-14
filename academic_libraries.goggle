@@ -17,7 +17,7 @@ $inurl=*.libweb^*.edu,boost=5
 $inurl=*libcat^*.edu,boost=5
 $inurl=^research^*.edu,boost=5
 $inurl=^ulib.edu,boost=5
-$inurl=^cc.ca.us,boos5=5
+$inurl=^cc.ca.us,boost=5
 $inurl=^cc.il.us,boost=5
 $inurl=^cc.oh.us
 $inurl=^cc.or.us
@@ -48,4 +48,4 @@ $inurl=^libguides.com,boost=10
 
 $discard,inurl=^*.com
 $discard,inurl=^*.gov
-$discard,inrul=^*.org
+$discard,inurl=^*.org
