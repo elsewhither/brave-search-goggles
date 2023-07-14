@@ -1,6 +1,6 @@
 ! name: Public Library Digital Services 
 ! description: Search for digital ebooks, audiobooks, films, music, etc. held by public library near you.
-! public: false
+! public: true
 ! author: elsewhither
 ! github: https://github.com/elsewhither
 ! avatar: #FFB000
