@@ -15,14 +15,14 @@ $site=pressreader.com,boost=5
 $site=consumerreports.com,boost=5
 
 !boost overdrive sites with subdomains
-$inurl=*.overdrive.com,boost=5
+$inurl=.overdrive.com,boost=5
 
-/books/*/$site=openlibrary.org,boost=10
-/works/*/$site=openlibrary.org,boost=10
-/media/*/$site=overdrive.com,boost=10
-/library/*/$site=libbyapp.com,boost=10
-/title/*/$site=hoopladigital.com,boost=10
-/en/product/*/$site=kanopy.com,boost=10
+/books/*/$boost=10,site=openlibrary.org
+/works/*/$boost=10,site=openlibrary.org
+/media/*/$boost=10,site=overdrive.com
+/library/*/$boost=10,site=libbyapp.com
+/title/*/$boost=10,site=hoopladigital.com
+/en/product/*/$boost=10,site=kanopy.com
 
 
 
