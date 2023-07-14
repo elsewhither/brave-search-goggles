@@ -1,0 +1,39 @@
+! name: Public Library Digital Services 
+! description: Search for digital ebooks, audiobooks, films, music, etc. held by public library near you.
+! public: false
+! author: elsewhither
+! github: https://github.com/elsewhither
+! avatar: #FFB000
+
+
+!whitelist common public library digital services
+
+$discard
+$site=worldcat.org
+$site=openlibrary.org
+$site=.*.overdrive.com
+$site=libbyapp.com
+$site=hoopladigital.com
+$site=kanopy.com
+$site=pressreader.com
+$site=consumerreports
+
+!boost URL patterns for catalog listings
+
+!Overdrive
+/media/$boost=5
+
+!Hoopla
+/title/$boost=5
+
+!Kanopy
+/en/product/$boost=5
+
+!Libby
+/library/*/$boost=5
+
+!Open Library
+/books/$boost=5
+/works/$boost=5
+
+
