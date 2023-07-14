@@ -21,6 +21,6 @@ $site=consumerreports
 /title/*/$site=hoopladigital.com
 /en/product/*/$site=kanopy.com
 
-$discard
+
 
 
