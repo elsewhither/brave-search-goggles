@@ -1,0 +1,47 @@
+! name: Academic Libraries & Libguides
+! description: Begin your research here. 
+! public: false
+! author: elsewither
+! github: https://github.com/elsewither
+! avatar: #33FF33
+
+!Whitelist URLs that contain these elements
+
+$discard
+$site=libraries.*.edu
+$site=lib.*.edu
+$site=library.*.edu
+$site=*.lib.edu
+$site=*.libraries.*.edu
+$site=*.libweb.*.edu
+$site=*libcat.*.edu
+$site=*research.*.edu
+$site=*.ulib.edu
+$site=*.cc.ca.us
+$site=*.cc.il.us
+$site=*.cc.oh.us
+$site=*.cc.or.us
+$site=*.cc.tx.us
+$site=*.cc.va.us
+$site=*.cc.wy.us
+
+!Allow libguide pages
+
+$site=libguides.*.edu
+$site=guides.*.edu
+$site=researchguides.*.edu
+$site=libguides.*.*.edu
+$site=guides.*.*.edu
+$site=researchguides.*.*.edu
+$site=*.libguides.com
+
+
+!Boost URLs that conatain these patterns
+
+/library/$boost=5
+/Library/$boost=5
+/libraries/$boost=5
+/lib/$boost=5
+/lrc/$boost=5
+/academic/library/$boost=5
+/Academic/library/$boost=5
