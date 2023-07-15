@@ -5,41 +5,41 @@
 ! github: https://github.com/elsewither
 ! avatar: #33FF33
 
-!discard unwanted results
-$discard
 
 !whitelist .edu sites
-*.edu^
+*.edu^$boost=10
 
 
 !Whitelist URLs that contain these elements
 
-$inurl=libraries.*.edu^,boost=5
-$inurl=lib.*.edu^,boost=5
-$inurl=library.*.edu^,boost=5
-$inurl=.lib.edu^,boost=5
-$inurl=libraries.*.edu^,boost=5
-$inurl=libweb.*.edu^,boost=5
-$inurl=libcat.*.edu^,boost=5
-$inurl=research.*.edu^,boost=5
-$inurl=^ulib.edu^,boost=5
-$inurl=cc.ca.us^
-$inurl=cc.il.us^
-$inurl=cc.oh.us^
-$inurl=cc.or.us^
-$inurl=cc.tx.us^
-$inurl=cc.va.us^
-$inurl=cc.wy.us^
+libraries.*.edu^$boost=10
+lib.*.edu^$boost=10
+library.*.edu^$boost=10
+*.lib.edu^$boost=10
+libraries.*.edu^$boost=10
+libweb.*.edu^$boost=10
+libcat.*.edu^$boost=10
+research.*.edu^$boost=10
+*ulib.edu^$boost=10
+cc.ca.us^
+cc.il.us^
+cc.oh.us^
+cc.or.us^
+cc.tx.us^
+cc.va.us^
+cc.wy.us^
 
-!Allow libguide pages
+!boost libguide pages
 
-$inurl=libguides.*.edu^,boost=10
-$inurl=guides.*.edu^,boost=10
-$inurl=researchguides.*.edu^,boost=10
-$inurl=libguides.*.edu^,boost=10
-$inurl=guides.*.edu^,boost=10
-$inurl=researchguides.*.edu^,boost=10
-$inurl=*.libguides.com^,boost=10
+$site=libguides.com
+
+libguides.*.edu^$boost=10
+guides.*.edu^$boost=10
+researchguides.*.edu^$boost=10
+libguides.*.edu^$boost=10
+guides.*.edu^$boost=10
+researchguides.*.edu^$boost=10
+*.libguides.com^$boost=10
 
 
 !Boost URLs that conatain these patterns
