@@ -6,11 +6,12 @@
 ! avatar: #33FF33
 
 
-!whitelist .edu sites
+!boost .edu sites
+
 *.edu^$boost=5
 
 
-!Whitelist URLs that contain these elements
+!boost URLs that contain common library subdomains
 
 libraries.*.edu^$boost=10
 lib.*.edu^$boost=10
@@ -21,6 +22,10 @@ libweb.*.edu^$boost=10
 libcat.*.edu^$boost=10
 research.*.edu^$boost=10
 *ulib.edu^$boost=10
+
+
+!boost community college subdomains
+
 cc.ca.us^$boost=5
 cc.il.us^$boost=5
 cc.oh.us^$boost=5
@@ -29,10 +34,10 @@ cc.tx.us^$boost=5
 cc.va.us^$boost=5
 cc.wy.us^$boost=5
 
+
 !boost libguide pages
 
 $site=libguides.com,boost=10
-
 libguides.*.edu^$boost=10
 guides.*.edu^$boost=10
 researchguides.*.edu^$boost=10
@@ -42,7 +47,7 @@ researchguides.*.edu^$boost=10
 *.libguides.com^$boost=10
 
 
-!Boost URLs that conatain these patterns
+!boost URLs that conatain these patterns
 
 /library/$boost=2,inurl=.edu
 /Library/$boost=2,inurl=.edu
