@@ -7,7 +7,7 @@
 
 
 !whitelist .edu sites
-*.edu^$boost=10
+*.edu^$boost=5
 
 
 !Whitelist URLs that contain these elements
@@ -21,17 +21,17 @@ libweb.*.edu^$boost=10
 libcat.*.edu^$boost=10
 research.*.edu^$boost=10
 *ulib.edu^$boost=10
-cc.ca.us^
-cc.il.us^
-cc.oh.us^
-cc.or.us^
-cc.tx.us^
-cc.va.us^
-cc.wy.us^
+cc.ca.us^$boost=5
+cc.il.us^$boost=5
+cc.oh.us^$boost=5
+cc.or.us^$boost=5
+cc.tx.us^$boost=5
+cc.va.us^$boost=5
+cc.wy.us^$boost=5
 
 !boost libguide pages
 
-$site=libguides.com
+$site=libguides.com,boost=10
 
 libguides.*.edu^$boost=10
 guides.*.edu^$boost=10
