@@ -4,9 +4,11 @@ This project is a result of wanting to test out the emerging Goggles feature of 
 
 Library Goggles for Brave Search currently consists of two goggles: 
 
+
 [1] Public Library Digital Services: 
 
 Searches digital services for ebooks, audiobooks, and streaming media services that public libraries commonly use (i.e. Overdrive/Libby, Hoopla, Kanopy, etc.) as well as Openlibrary.org. The main purpose of this Goggle is to quickly check if a piece of media is available though a public library, before seeking more traditional interlibrary loan routes or purchasing it. 
+
 
 [2] Academic Libraries & Libguides:
 
