@@ -12,7 +12,7 @@ Searches digital services for ebooks, audiobooks, and streaming media services t
 
 [2] Academic Libraries & Libguides:
 
-Boosts .edu domains that contain common academic library subdomains including linguine's. The purpose of this is to allow a hasty search of a topic either to guide reference resource retrieval or as a primer to further research. The subdomains are generalized from commonalities discovered when scrapping thousands of academic library we addresses from lib-web.org.
+Boosts .edu domains that contain common academic library subdomains including libguides. The purpose of this is to allow a hasty search of a topic either to guide reference resource retrieval or as a primer to further research. The subdomains are generalized from commonalities discovered when scrapping thousands of academic library we addresses from lib-web.org.
 
 In the future additional Goggles may be added to the project. Currently the focus is remains on refining the results to further filter out bookstores and other unwanted pages.
 
