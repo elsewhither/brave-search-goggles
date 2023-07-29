@@ -1,5 +1,5 @@
 ! name: Public Library Digital Services 
-! description: Boosts digital services such as ebooks, audiobooks, films, music, etc. held by a public libraries.
+! description: Boosts digital services such as ebooks, audiobooks, films, music, etc. held by public libraries.
 ! public: true
 ! author: elsewhither
 ! github: https://github.com/elsewhither
@@ -11,6 +11,7 @@ $site=openlibrary.org,boost=10
 $site=overdrive.com,boost=10
 $site=libbyapp.com,boost=10
 $site=hoopladigital.com,boost=10
+$site=kanopy.com,boost=10
 $site=pressreader.com,boost=5
 $site=consumerreports.com,boost=10
 
