@@ -13,7 +13,7 @@ $site=libbyapp.com,boost=10
 $site=hoopladigital.com,boost=10
 $site=kanopy.com,boost=10
 $site=pressreader.com,boost=5
-$site=consumerreports.com,boost=10
+$site=consumerreports.org,boost=5
 
 !boost overdrive sites with subdomains
 *.overdrive.com$boost=10
