@@ -5,7 +5,7 @@
 ! github: https://github.com/elsewhither
 ! avatar: #FFB000
 
-!whitelist common public library digital services
+!boost common public library digital services
 
 $site=openlibrary.org,boost=10
 $site=overdrive.com,boost=10
