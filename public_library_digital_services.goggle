@@ -12,6 +12,7 @@ $site=overdrive.com,boost=10
 $site=libbyapp.com,boost=10
 $site=hoopladigital.com,boost=10
 $site=kanopy.com,boost=10
+$site=freegalmusic.com,boost=10
 $site=pressreader.com,boost=5
 $site=consumerreports.org,boost=5
 
