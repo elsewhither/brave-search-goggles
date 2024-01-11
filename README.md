@@ -1,6 +1,6 @@
 # Library Goggles for Brave Search
 
-This project is a result of wanting to test out the emerging Goggles feature of Brave Search for use in library reference and information services. Brave Goggles act as both filters and boosts to results on top of the default Brave search engine.
+This project is a result of wanting to test out the emerging Goggles feature of Brave Search for use in library reference and information services. Brave Goggles act as both filters and boosters to results on top of the default Brave search engine.
 
 Library Goggles for Brave Search currently consists of two goggles: 
 
@@ -24,9 +24,8 @@ To use either of the Library Goggles, simply navigate to the respective links be
 
 [Academic Libraries & Libguides](https://search.brave.com/goggles?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Felsewhither%2Fbrave-search-goggles%2Fmain%2Facademic_libraries.goggle)
 
-From there you just have to enter your search query and the Goggles should do the rest. Results that are influenced by the Goggle while have the color from its card next to it. If you hover the mouse over this, a pop-up will tell you which lines effected the result.
+From each Goggle page you just have to enter your search query and the Goggles should do the rest. Each search result that is influenced by the Goggle will have a color card next to. If you hover the mouse over this, a pop-up will tell you which lines of the script effected the result.
  
-Unfortunately,
 
 ## Contributing
 
