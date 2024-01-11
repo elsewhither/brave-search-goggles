@@ -20,11 +20,15 @@ $site=consumerreports.org,boost=5
 !boost overdrive sites with subdomains
 *.overdrive.com$boost=10
 
+!boost individual pages for items
 /books/*$boost=10,site=openlibrary.org
 /works/*$boost=10,site=openlibrary.org
 /media/*$boost=10,site=overdrive.com
 /library/*$boost=10,site=libbyapp.com
 /title/*$boost=10,site=hoopladigital.com
+/ebooks/*$boost=10,site=freading.com
+/authors/*$boost=10,site=freading.com
+/listing/*$boost=10,site=freading.com
 /en/product/*$boost=10,site=kanopy.com
 
 
